@@ -1,0 +1,722 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+.landing-page1-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.landing-page1-landing-page {
+  width: 100%;
+  height: 2335px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(44, 44, 44, 1);
+}
+.landing-page1-introduction-page {
+  top: -12px;
+  left: 0px;
+  width: 1280px;
+  height: 1080px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.landing-page1-background-image {
+  top: 0px;
+  left: 0px;
+  width: 1280px;
+  height: 1080px;
+  position: absolute;
+}
+.landing-page1-group1 {
+  top: 160px;
+  left: 309px;
+  width: 661px;
+  height: 393px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.landing-page1-text {
+  top: 350px;
+  color: rgba(255, 255, 255, 1);
+  width: 661px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Blinker;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page1-ellipse1 {
+  top: 0px;
+  left: 232px;
+  width: 196px;
+  height: 211px;
+  position: absolute;
+  box-sizing: content-box;
+}
+.landing-page1-text02 {
+  top: 225px;
+  left: 119px;
+  color: rgba(255, 255, 255, 1);
+  width: 423px;
+  height: auto;
+  position: absolute;
+  font-size: 65px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Blinker;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page1-frame3 {
+  gap: 21px;
+  top: 735px;
+  left: 544px;
+  width: 193px;
+  height: 66px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.landing-page1-link {
+  display: contents;
+}
+.landing-page1-instagramlogo1button {
+  top: 9.96815299987793px;
+  left: -2.5636940002441406px;
+  width: 46px;
+  height: 46px;
+  opacity: 0.3;
+  position: absolute;
+  text-decoration: none;
+}
+.landing-page1-instagramlogo1button:hover{
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.landing-page1-link1 {
+  display: contents;
+}
+.landing-page1-github11button {
+  top: -7px;
+  left: 64.5px;
+  width: 64px;
+  height: 64px;
+  opacity: 0.3;
+  position: absolute;
+  text-decoration: none;
+}
+
+.landing-page1-github11button:hover{
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.landing-page1-link2 {
+  display: contents;
+}
+.landing-page1-linkedinlogotype1button {
+  top: 11px;
+  left: 149.5px;
+  width: 46px;
+  opacity: 0.3;
+  height: 46px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.landing-page1-linkedinlogotype1button:hover{
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.landing-page1-about-me-page {
+  top: 873.0267333984375px;
+  left: -1px;
+  width: 1280px;
+  height: 506.2436828613281px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(39, 38, 36, 1);
+}
+.landing-page1-about-me-header {
+  top: 37.28150939941406px;
+  left: 476px;
+  width: 329px;
+  height: 100.07142639160156px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.landing-page1-line1 {
+  top: 84.37394714355469px;
+  left: 45px;
+  width: 208px;
+  height: 1px;
+  position: absolute;
+}
+.landing-page1-text04 {
+  color: rgba(255, 255, 255, 1);
+  width: 329px;
+  height: auto;
+  position: absolute;
+  font-size: 60px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Biryani;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page1-ellipse2 {
+  top: 137.3529510498047px;
+  left: 139px;
+  width: 261px;
+  height: 276px;
+  position: absolute;
+  box-sizing: content-box;
+}
+.landing-page1-about-me-text {
+  top: 120.19747924804688px;
+  left: 481px;
+  color: rgba(255, 255, 255, 1);
+  width: 671px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Blinker;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page1-skills-page {
+  top: 1378.827880859375px;
+  left: -3px;
+  width: 1282px;
+  height: 956.1721801757812px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.landing-page1-white-background {
+  top: 0px;
+  left: 1px;
+  width: 1281px;
+  height: 956px;
+  position: absolute;
+}
+.landing-page1-end-line {
+  top: 720.05615234375px;
+  left: 542.5px;
+  width: 193px;
+  height: 1px;
+  position: absolute;
+}
+.landing-page1-skills-header {
+  top: 80.00619506835938px;
+  left: 482px;
+  width: 318.8554992675781px;
+  height: 99.51995849609375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.landing-page1-group5 {
+  top: 75.12776947021484px;
+  left: 0px;
+  width: 318.8554992675781px;
+  height: 24.392147064208984px;
+  display: flex;
+  opacity: 0.50;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.landing-page1-text09 {
+  left: 33.578125px;
+  color: rgba(0, 0, 0, 1);
+  width: 273px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Biryani;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page1-line11 {
+  top: 12.683819770812988px;
+  left: 5.6843418860808015e-14px;
+  width: 29px;
+  height: 1px;
+  position: absolute;
+}
+.landing-page1-line2 {
+  top: 12.196080207824707px;
+  left: 290.0298767089844px;
+  width: 29px;
+  height: 1px;
+  position: absolute;
+}
+.landing-page1-text11 {
+  left: 73px;
+  color: rgba(0, 0, 0, 1);
+  width: 175px;
+  height: auto;
+  position: absolute;
+  font-size: 60px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Biryani;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page1-front-end-developer-holder {
+  top: 252.70257568359375px;
+  left: 51px;
+  width: 354.8113708496094px;
+  height: 372.71197509765625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(217, 217, 217, 1);
+}
+.landing-page1-text13 {
+  top: 27.853914260864258px;
+  left: 67.9715576171875px;
+  color: rgba(4, 4, 4, 1);
+  width: 258px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Biryani;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page1-group8 {
+  top: 106.0811767578125px;
+  left: 84.28472900390625px;
+  width: 185.9348602294922px;
+  height: 194.67529296875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.landing-page1-group9 {
+  top: 0px;
+  left: 0px;
+  width: 185.9348602294922px;
+  height: 194.67529296875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.landing-page1-text15 {
+  top: 153.0779266357422px;
+  left: 57.998046875px;
+  color: rgba(0, 0, 0, 1);
+  width: 128px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Biryani;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page1-figmalogo1 {
+  top: 151.41421508789062px;
+  left: 1.1368683772161603e-13px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+.landing-page1-css31 {
+  top: 73.21116638183594px;
+  left: 1.1368683772161603e-13px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+.landing-page1-text17 {
+  top: 76.53858947753906px;
+  left: 57.998046875px;
+  color: rgba(0, 0, 0, 1);
+  width: 128px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Biryani;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page1-text19 {
+  top: 0.000026702880859375px;
+  left: 57.9980583190918px;
+  color: rgba(0, 0, 0, 1);
+  width: 128px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Biryani;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page1-html5logotype1 {
+  top: 0px;
+  left: 0px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+.landing-page1-back-end-developer-holder {
+  top: 252.70257568359375px;
+  left: 462.90740966796875px;
+  width: 354.8113708496094px;
+  height: 372.71197509765625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(217, 217, 217, 1);
+}
+.landing-page1-text21 {
+  top: 37.138450622558594px;
+  left: 74.7686767578125px;
+  color: rgba(4, 4, 4, 1);
+  width: 205px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Biryani;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page1-group10 {
+  top: 104.78374481201172px;
+  left: 78.84695434570312px;
+  width: 194.54888916015625px;
+  height: 196.05494689941406px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.landing-page1-sqlfileformatsymbol1 {
+  top: 74.27720642089844px;
+  left: 0px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+.landing-page1-python1 {
+  top: 0px;
+  left: 0.000017749096514307894px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+.landing-page1-hashtag1 {
+  top: 152.53330993652344px;
+  left: 0px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+.landing-page1-text23 {
+  top: 154.44631958007812px;
+  left: 66.61209106445312px;
+  color: rgba(0, 0, 0, 1);
+  width: 128px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Biryani;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page1-text25 {
+  top: 77.8861312866211px;
+  left: 66.61209106445312px;
+  color: rgba(0, 0, 0, 1);
+  width: 128px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Biryani;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page1-text27 {
+  top: 1.3264479637145996px;
+  left: 66.61209106445312px;
+  color: rgba(0, 0, 0, 1);
+  width: 128px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Biryani;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page1-python-libraries-holder {
+  top: 252.70257568359375px;
+  left: 874.8148803710938px;
+  width: 354.8113708496094px;
+  height: 372.71197509765625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(217, 217, 217, 1);
+}
+.landing-page1-group11 {
+  top: 106.11013793945312px;
+  left: 92.4412841796875px;
+  width: 194.54888916015625px;
+  height: 196.05477905273438px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.landing-page1-sqlfileformatsymbol11 {
+  top: 74.27706146240234px;
+  left: 0px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+.landing-page1-python11 {
+  top: 0px;
+  left: 2.7166970539838076e-7px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+.landing-page1-hashtag11 {
+  top: 152.53329467773438px;
+  left: 0px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+.landing-page1-text29 {
+  top: 154.446044921875px;
+  left: 66.612060546875px;
+  color: rgba(0, 0, 0, 1);
+  width: 128px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Biryani;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page1-text31 {
+  top: 77.88611602783203px;
+  left: 66.612060546875px;
+  color: rgba(0, 0, 0, 1);
+  width: 128px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Biryani;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page1-text33 {
+  top: 1.3263050317764282px;
+  left: 66.612060546875px;
+  color: rgba(0, 0, 0, 1);
+  width: 128px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Biryani;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page1-text35 {
+  top: 31.832983016967773px;
+  left: 88.36297607421875px;
+  color: rgba(4, 4, 4, 1);
+  width: 171px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Biryani;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page1-resume-footer {
+  top: 882.9957275390625px;
+  left: 0px;
+  width: 1280px;
+  height: 73.17642974853516px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(39, 38, 36, 1);
+}
+.landing-page1-and-heres-my-resum {
+  top: 16.586669921875px;
+  left: 340px;
+  color: rgba(255, 255, 255, 1);
+  width: 382px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Biryani;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page1-rectangle6 {
+  top: 12.68384838104248px;
+  left: 721px;
+  width: 193px;
+  height: 49px;
+  position: absolute;
+  border-radius: 10px;
+}
+.landing-page1-download-cv-text {
+  top: 23px;
+  left: 735px;
+  color: rgb(0, 0, 0);
+  width: 164px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Biryani;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landing-page1-pdffile1 {
+  top: 25.36783218383789px;
+  left: 877px;
+  width: 24px;
+  height: 23px;
+  position: absolute;
+}
+@media(max-width: 1200px) {
+  .landing-page1-text {
+    left: -10px;
+    bottom: 18px;
+  }
+  .landing-page1-about-me-text {
+    top: 200px;
+    left: 479px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: Blinker;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .landing-page1-and-heres-my-resum {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Biryani;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .landing-page1-download-cv-text {
+    top: 22px;
+    left: 733px;
+  }
+}
