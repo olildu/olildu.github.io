@@ -21,7 +21,7 @@ body::-webkit-scrollbar{
     height: 235px;
     border-radius: 50%;
     border: 3px solid white;
-    background-image: url("/images/profile.jpg");
+    background-image: url("/images/profile.png  ");
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -77,13 +77,14 @@ body::-webkit-scrollbar{
     opacity: 1;
 }
 .github:hover{
-transition: 0.5s;
-opacity: 1;
+    transition: 0.5s;
+    opacity: 1;
 }
 .linkedin:hover{
-transition: 0.5s;
-opacity: 1;
+    transition: 0.5s;
+    opacity: 1;
 }
+
 #aboutme{
     color: white;
     position: absolute;
@@ -93,22 +94,23 @@ opacity: 1;
     font-size: 60px;
     font-family: 'Tajawal', sans-serif;
 }
-#text-brief{
+#text-brief {
     color: white;
     font-size: 40px;
-    text-align: left;
-    position: absolute;
-    top: 50%;
-    transform: translate(-0%,-50%);
-    left: 40%;
-    max-width   : 700px;
+    text-align: center;
+    position: relative;
+    top: 38%;
+    /* transform: translate(-0%,-50%); */
+    /* left: 40%; */
+    max-width: 922px;
+    margin: 0 auto;
 }
 .profile2{
     width: 300px;
     height: 300px;
     border-radius: 50%;
     border: 5px solid white;
-    background-image: url("/images/profile.jpg");
+    background-image: url("/images/profile2.jpg");
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -124,4 +126,12 @@ opacity: 1;
     transform: translate(-50%,50%);
     top: 15.5%;
     left: 50%;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes fadeout{
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
