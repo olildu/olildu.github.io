@@ -1,0 +1,37 @@
+[
+  {
+    "name": "LinkUp | Dating App",
+    "description": "A full-stack dating ecosystem for college students. Featuring a high-performance FastAPI backend with real-time WebSockets and Redis caching for instant matching and messaging, paired with a cross-platform Flutter frontend utilizing BLoC for a seamless, responsive user experience.",
+    "tech": "FastAPI, Flutter, Redis, WebSocket",
+    "language": "Python / Dart",
+    "links": {
+      "github_frontend": "https://github.com/olildu/linkup-frontend",
+      "github_backend": "https://github.com/olildu/linkup-backend"
+    },
+    "featured": true,
+    "order": 1
+  },
+  {
+    "name": "HotDrop | P2P File Sharing",
+    "description": "A cross-platform P2P file-sharing ecosystem. High-speed data transfer between Android and Windows using custom TCP protocols and internal binary stream servers. Features deep native integration for high-performance WiFi Direct and BLE-based peer discovery.",
+    "tech": "Flutter, TCP Sockets, Kotlin, WiFi Direct, BLE",
+    "language": "Dart / Kotlin",
+    "links": {
+      "github": "https://github.com/olildu/HotDrop"
+    },
+    "featured": true,
+    "order": 2
+  },
+  {
+    "name": "Cogni Anchor | Deloitte Capstone",
+    "description": "An AI-powered dementia support ecosystem. Features a FastAPI backend with LangGraph for stateful AI reasoning, Whisper STT/TTS, and face recognition. The Flutter frontend provides a voice-first interface, smart reminders, and real-time geofencing safety alerts. Mentored by Deloitte.",
+    "tech": "FastAPI, LangGraph, Flutter, Whisper, WebSocket",
+    "language": "Python / Dart",
+    "links": {
+      "github_frontend": "https://github.com/olildu/cogni_anchor",
+      "github_backend": "https://github.com/olildu/cogni_anchor_backend"
+    },
+    "featured": true,
+    "order": 3
+  }
+]
