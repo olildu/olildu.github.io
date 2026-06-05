@@ -845,6 +845,11 @@ html[data-theme="dark"] .company-logo:hover {
   font-weight: 500;
 }
 
+.bento-item__location {
+  color: var(--color-text-muted);
+  font-weight: 400;
+}
+
 .bento-item__description {
   font-size: 0.9375rem;
   line-height: 1.6;

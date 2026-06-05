@@ -12,7 +12,7 @@ const Hero = () => {
           <h1 id="hero-heading" className="hero__title">
             <span className="hero__title-wrapper">Ebin Santhosh<span className="hero__title-accent"></span></span>
           </h1>
-          <p className="hero__subtitle">Software Development Intern at <strong>Smollan</strong>. IT Engineering student at <strong>Manipal University Jaipur</strong>. Crafting high-concurrency <strong>FastAPI</strong> backends and robust <strong>Flutter</strong> ecosystems. Focused on engineering scalable, mission-critical solutions for global impact.</p>
+          <p className="hero__subtitle">Flutter Development Intern at <strong>Posha</strong>. IT Engineering student at <strong>Manipal University Jaipur</strong>. Crafting high-concurrency <strong>FastAPI</strong> backends and robust <strong>Flutter</strong> ecosystems. Focused on engineering scalable, mission-critical solutions for global impact.</p>
           
           <div className="hero__actions">
             <a href="mailto:ebinsanthosh06@gmail.com" className="hero__cta hero__cta--primary">Get in Touch</a>
@@ -56,9 +56,11 @@ const Hero = () => {
 
       {/* Social proof / current affiliation section */}
       <div className="hero__companies">
-        <p className="hero__companies-label">Currently Working with</p>
+        <p className="hero__companies-label">Experience at</p>
         <div className="hero__companies-logos">
           {/* Theme-aware logos (visibility toggled via CSS) */}
+          <img src="/images/PoshaLogoDark.png" alt="Posha" className="company-logo company-logo--dark" />
+          <img src="/images/PoshaLogoLight.png" alt="Posha" className="company-logo company-logo--light" />
           <img src="/images/SmollanLogoDark.png" alt="Smollan India" className="company-logo company-logo--dark" />
           <img src="/images/SmollanLogoLight.png" alt="Smollan India" className="company-logo company-logo--light" />
         </div>
