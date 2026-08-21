@@ -1,0 +1,24 @@
+[
+  {
+    "repo": "immich",
+    "stars": "104k+ stars",
+    "title": "Merged Bug Fix — Flutter Mobile",
+    "prLabel": "PR #29054 (Merged)",
+    "status": "merged",
+    "date": "Jun 2026",
+    "description": "Fixed a duplicate login page bug caused by Android's singleTask warm-start behavior: when an unauthenticated user triggered a share intent while the app was backgrounded, auto_route stacked a second login page behind the splash screen's replacement. Resolved by replacing replaceRoute(LoginRoute()) with context.router.replaceAll([LoginRoute()]) to clear the entire navigation stack, ensuring a single login page regardless of prior stack state.",
+    "tech": "Flutter, Dart, auto_route",
+    "link": "https://github.com/immich-app/immich/pull/29054"
+  },
+  {
+    "repo": "immich",
+    "stars": "104k+ stars",
+    "title": "Bottom Sheet Padding Fix in Multiselect Mode",
+    "prLabel": "PR #29809 (In Review)",
+    "status": "in-review",
+    "date": "Aug 2026",
+    "description": "Fixing an issue where the selection bottom sheet overlaps images in multiselect mode on mobile. Replacing a hardcoded padding value with a solution that dynamically measures the sheet header at runtime, keeping the sheet's resting size and the timeline grid's bottom padding in sync regardless of content, rotation, or text scaling.",
+    "tech": "Flutter, Dart",
+    "link": "https://github.com/immich-app/immich/pull/29809"
+  }
+]

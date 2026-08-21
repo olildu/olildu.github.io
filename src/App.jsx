@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Experience from './components/Experience';
+import OpenSource from './components/OpenSource';
 import Projects from './components/Projects';
 import Connect from './components/Connect';
 import Footer from './components/Footer';
@@ -17,6 +18,7 @@ function App() {
       <main id="main">
         <Hero />
         <Experience />
+        <OpenSource />
         <Projects />
         <Connect />
       </main>
